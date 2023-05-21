@@ -2,6 +2,12 @@
 
 This is a clone of the [Tesla](https://tesla.com) landing page using Astro. It's a static site, so it can be hosted anywhere.
 
+## Preview
+
+## Preview
+
+<img width="1799" alt="Screenshot from 2023-05-20" src="https://repository-images.githubusercontent.com/643633452/ee665f3d-a360-42bd-8709-549a9534582b">
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -9,22 +15,30 @@ Inside of your Astro project, you'll see the following folders and files:
 ```
 /
 ├── public/
+│   ├── assets/
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   ├── Accesories.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── HeroSection.astro
+│   │   ├── Logo.astro
+│   │   ├── ModelS.astro
+│   │   ├── ModelThree.astro
+│   │   ├── ModelX.astro
+│   │   ├── ModelY.astro
+│   │   ├── Section.astro
+│   │   ├── SolarPanels.astro
+│   │   └── SolarRoof.astro
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
-└── package.json
+├── astro.config.mjs
+├── package.json
+└── tailwind.config.js
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
