@@ -3,7 +3,7 @@ import Logo from './Logo.astro'
 ---
 
 <header
-  id="landing-header"
+  id="header"
   class="py-3 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white"
 >
   <div class="flex flex-grow basis-0">
@@ -51,7 +51,7 @@ import Logo from './Logo.astro'
 
 <script>
   const $listItem = document.querySelectorAll(
-    '#landing-header li'
+    '#header li'
   ) as NodeListOf<HTMLElement>
   const $menuBackdrop = document.querySelector('#menu-backdrop') as HTMLElement
 
@@ -76,7 +76,7 @@ import Logo from './Logo.astro'
 </script>
 
 <script>
-  const $headerEl = document.querySelector('#landing-header') as HTMLElement
+  const $headerEl = document.querySelector('#header') as HTMLElement
 
   const observerOptions = {
     root: null,
@@ -94,6 +94,6 @@ import Logo from './Logo.astro'
     })
   }, observerOptions)
 
-  const $sectionElements = document.querySelectorAll('.landing-section')
+  const $sectionElements = document.querySelectorAll('.section')
   $sectionElements.forEach(($section) => observer.observe($section)) // observe each section
 </script>
