@@ -10,7 +10,7 @@ This is a clone of the [Tesla](https://tesla.com) landing page using Astro. It's
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+This project is built with [Astro](https://astro.build), a new framework for building websites using JavaScript, HTML, and CSS. Inside of this project, you'll see the following folders and files:
 
 ```
 /
