@@ -1,5 +1,7 @@
 # Tesla Landing
 
+This is a clone of the [Tesla](https://tesla.com) landing page using Astro. It's a static site, so it can be hosted anywhere.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
