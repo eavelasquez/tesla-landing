@@ -7,5 +7,5 @@ module.exports = {
 			sans: ['Gotham SSm A, sans-serif']
 		},
 	},
-	plugins: [],
+	plugins: []
 }
