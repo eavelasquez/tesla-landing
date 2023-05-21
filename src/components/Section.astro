@@ -1,12 +1,12 @@
 ---
 export interface Props {
   color: string
-  title: string
+  id?: string
   subtitle: string
-  id: string
+  title: string
 }
 
-const { color, title, subtitle, id } = Astro.props
+const { color, id, subtitle, title } = Astro.props
 
 const textColor = `text-${color}`
 ---
